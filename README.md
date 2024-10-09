@@ -35,10 +35,10 @@ We are also working towards developing a self-improving agentic structure and ha
   - Analyzes queries and breaks them into subtasks.
   - Uses chain-of-thought prompts to generate plans to execute subtasks.
   - eg: for query input like  what is the asset ratio of Kotak Bank in FY2022, plan generated will be
-            - plan(1, fetch, [annual_report_numerical_data_retriever], "Total assets of Kotak Bank in FY2022")
-            - plan(2, fetch, [annual_report_numerical_data_retriever], "Total liabilities of Kotak Bank in FY2022")
-            - plan(3, compute, [expert], "Compute the asset ratio for Kotak Bank in FY2022 as Asset Ratio = Total Assets / Total Liabilities")
-            - plan(4, report, [expert], "Report the computed asset ratio for Kotak Bank in FY2022")
+      - plan(1, fetch, [annual_report_numerical_data_retriever], "Total assets of Kotak Bank in FY2022")
+      - plan(2, fetch, [annual_report_numerical_data_retriever], "Total liabilities of Kotak Bank in FY2022")
+      - plan(3, compute, [expert], "Compute the asset ratio for Kotak Bank in FY2022 as Asset Ratio = Total Assets /Total Liabilities")
+      - plan(4, report, [expert], "Report the computed asset ratio for Kotak Bank in FY2022")
 
   #### Master Class
   - Extracts and executes the plan.
