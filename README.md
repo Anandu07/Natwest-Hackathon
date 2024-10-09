@@ -3,6 +3,7 @@
 **AIoverBI: A Finance Domain Chatbot with Advanced Agent Architecture**
 
 **AIoverBI** is a finance domain chatbot built with advanced agent architecture. Its core component functions as a "brain" that analyzes user queries, determines a plan of action to solve them, breaks down tasks into smaller subtasks, executes these subtasks in parallel when possible, and ultimately generates the output.
+
 Currently, we have indexed data from various financial sources, including:
 - Annual reports of Nifty 50 companies
 - Corporate Social Responsibility Reports (CSR)
